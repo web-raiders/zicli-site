@@ -101,8 +101,8 @@ const Hero = () => {
       <HeroInner>
         <Title>Zicli</Title>
         <HeroText>
-          Your tagline or description goes here. Edit this section to introduce
-          your brand and what you do.
+          Crafting thoughtful digital experiences — products, brands, and
+          ideas built with intention.
         </HeroText>
         <CTAContainer>
           <PrimaryButton href="mailto:hello@zicli.com">
