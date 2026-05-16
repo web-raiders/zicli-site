@@ -2,15 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/icons/favicon.png" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23F8F4EC'/><circle cx='32' cy='32' r='14' fill='%23C0502B'/></svg>"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Zicli" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icons/favicon.png" />
+    <meta name="theme-color" content="#F8F4EC" />
+    <meta
+      name="description"
+      content="Zicli Synergy Limited — premium paint, restoration and Inesfly insecticide paint, manufactured in Lagos for Nigerian homes and businesses."
+    />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Zicli Synergy — Premium paint for Nigerian homes & brands</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Netlify Forms detection (static HTML) -->
+    <form
+      name="zicli-contact"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      style="display:none"
+    >
+      <input type="text" name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="interest" />
+      <textarea name="message"></textarea>
+    </form>
   </body>
 </html>

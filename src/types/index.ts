@@ -28,5 +28,18 @@ export interface ITheme {
     link: string;
     text: string;
     button: string;
+    surface: string;
+    sand: string;
+    ink: string;
+    muted: string;
+    accent: string;
+    accent2: string;
+    accent3: string;
+    line: string;
+    shadow: string;
+    inverse: string;
+    onInverse: string;
+    onInverseMuted: string;
+    inverseLine: string;
   }
 };
